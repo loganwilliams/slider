@@ -55,7 +55,7 @@ export default class Handle extends React.Component {
       <Tooltip
         prefixCls={tooltipPrefixCls || `${prefixCls}-tooltip`}
         placement="top"
-        visible={isTooltipVisible}
+        visible={true}
         overlay={<span>{tipFormatter(value, index)}</span>}
         delay={0}
         transitionName={tipTransitionName}
